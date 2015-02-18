@@ -11,6 +11,6 @@ import Foundation
 public class Doctor: Examinable {
     public init() {}
     public func examine() -> Diagnosis {
-        return Diagnosis(name: "pasta")
+        return Diagnosis(name: "cold")
     }
 }

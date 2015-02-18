@@ -9,7 +9,12 @@
 /* Begin PBXBuildFile section */
 		146527C51A8D18DD00ABFB4C /* QuickStudy.h in Headers */ = {isa = PBXBuildFile; fileRef = 146527C41A8D18DD00ABFB4C /* QuickStudy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		146527CB1A8D18DD00ABFB4C /* QuickStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146527BF1A8D18DD00ABFB4C /* QuickStudy.framework */; };
-		146527D21A8D18DD00ABFB4C /* QuickStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146527D11A8D18DD00ABFB4C /* QuickStudyTests.swift */; };
+		146527D21A8D18DD00ABFB4C /* HospitalSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146527D11A8D18DD00ABFB4C /* HospitalSpecs.swift */; };
+		146527DC1A8D1B2400ABFB4C /* Examinable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146527DB1A8D1B2400ABFB4C /* Examinable.swift */; };
+		146527DE1A8D1B4900ABFB4C /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146527DD1A8D1B4900ABFB4C /* Doctor.swift */; };
+		146527E01A8D1B5800ABFB4C /* Diagnosis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146527DF1A8D1B5800ABFB4C /* Diagnosis.swift */; };
+		146527E21A8D1BF200ABFB4C /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146527E11A8D1BF200ABFB4C /* Hospital.swift */; };
+		5B8CFE87FA429A1B7FF7533C /* Pods_QuickStudyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C08CB9249BEA392873BBDE /* Pods_QuickStudyTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +33,14 @@
 		146527C41A8D18DD00ABFB4C /* QuickStudy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickStudy.h; sourceTree = "<group>"; };
 		146527CA1A8D18DD00ABFB4C /* QuickStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146527D01A8D18DD00ABFB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		146527D11A8D18DD00ABFB4C /* QuickStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStudyTests.swift; sourceTree = "<group>"; };
+		146527D11A8D18DD00ABFB4C /* HospitalSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalSpecs.swift; sourceTree = "<group>"; };
+		146527DB1A8D1B2400ABFB4C /* Examinable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Examinable.swift; sourceTree = "<group>"; };
+		146527DD1A8D1B4900ABFB4C /* Doctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		146527DF1A8D1B5800ABFB4C /* Diagnosis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diagnosis.swift; sourceTree = "<group>"; };
+		146527E11A8D1BF200ABFB4C /* Hospital.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
+		5AADCFA8A3367CE49813FD7F /* Pods-QuickStudyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickStudyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickStudyTests/Pods-QuickStudyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8C08CB9249BEA392873BBDE /* Pods_QuickStudyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickStudyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8A7C3F80AA4F6B27499714 /* Pods-QuickStudyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickStudyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickStudyTests/Pods-QuickStudyTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +56,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				146527CB1A8D18DD00ABFB4C /* QuickStudy.framework in Frameworks */,
+				5B8CFE87FA429A1B7FF7533C /* Pods_QuickStudyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +69,8 @@
 				146527C11A8D18DD00ABFB4C /* QuickStudy */,
 				146527CE1A8D18DD00ABFB4C /* QuickStudyTests */,
 				146527C01A8D18DD00ABFB4C /* Products */,
+				2549AECE5BFBF3EBE65584D4 /* Pods */,
+				8045B87168ED42649865A345 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +88,10 @@
 			children = (
 				146527C41A8D18DD00ABFB4C /* QuickStudy.h */,
 				146527C21A8D18DD00ABFB4C /* Supporting Files */,
+				146527DB1A8D1B2400ABFB4C /* Examinable.swift */,
+				146527DD1A8D1B4900ABFB4C /* Doctor.swift */,
+				146527DF1A8D1B5800ABFB4C /* Diagnosis.swift */,
+				146527E11A8D1BF200ABFB4C /* Hospital.swift */,
 			);
 			path = QuickStudy;
 			sourceTree = "<group>";
@@ -88,7 +107,7 @@
 		146527CE1A8D18DD00ABFB4C /* QuickStudyTests */ = {
 			isa = PBXGroup;
 			children = (
-				146527D11A8D18DD00ABFB4C /* QuickStudyTests.swift */,
+				146527D11A8D18DD00ABFB4C /* HospitalSpecs.swift */,
 				146527CF1A8D18DD00ABFB4C /* Supporting Files */,
 			);
 			path = QuickStudyTests;
@@ -100,6 +119,23 @@
 				146527D01A8D18DD00ABFB4C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2549AECE5BFBF3EBE65584D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AADCFA8A3367CE49813FD7F /* Pods-QuickStudyTests.debug.xcconfig */,
+				EC8A7C3F80AA4F6B27499714 /* Pods-QuickStudyTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8045B87168ED42649865A345 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8C08CB9249BEA392873BBDE /* Pods_QuickStudyTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 146527D81A8D18DD00ABFB4C /* Build configuration list for PBXNativeTarget "QuickStudyTests" */;
 			buildPhases = (
+				7ED1C5C0875F6E78AD991BAE /* Check Pods Manifest.lock */,
 				146527C61A8D18DD00ABFB4C /* Sources */,
 				146527C71A8D18DD00ABFB4C /* Frameworks */,
 				146527C81A8D18DD00ABFB4C /* Resources */,
+				A8C5AE9C9C8B1892DADA5E84 /* Embed Pods Frameworks */,
+				E5C4C5F4B6635583675883AE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,11 +243,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7ED1C5C0875F6E78AD991BAE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8C5AE9C9C8B1892DADA5E84 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickStudyTests/Pods-QuickStudyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5C4C5F4B6635583675883AE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickStudyTests/Pods-QuickStudyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		146527BA1A8D18DD00ABFB4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				146527DC1A8D1B2400ABFB4C /* Examinable.swift in Sources */,
+				146527DE1A8D1B4900ABFB4C /* Doctor.swift in Sources */,
+				146527E21A8D1BF200ABFB4C /* Hospital.swift in Sources */,
+				146527E01A8D1B5800ABFB4C /* Diagnosis.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				146527D21A8D18DD00ABFB4C /* QuickStudyTests.swift in Sources */,
+				146527D21A8D18DD00ABFB4C /* HospitalSpecs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +412,7 @@
 		146527D61A8D18DD00ABFB4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -330,12 +422,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		146527D71A8D18DD00ABFB4C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -350,6 +444,7 @@
 		};
 		146527D91A8D18DD00ABFB4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AADCFA8A3367CE49813FD7F /* Pods-QuickStudyTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -367,6 +462,7 @@
 		};
 		146527DA1A8D18DD00ABFB4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8A7C3F80AA4F6B27499714 /* Pods-QuickStudyTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -397,6 +493,7 @@
 				146527D71A8D18DD00ABFB4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		146527D81A8D18DD00ABFB4C /* Build configuration list for PBXNativeTarget "QuickStudyTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +502,7 @@
 				146527DA1A8D18DD00ABFB4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
